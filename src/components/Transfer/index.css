@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+.tranfer{
+    display: flex;
+}
+.cut{
+    margin: 20px;
+}
+.cut .ant-btn{
+    display: block;
+    margin-top: 80px;
+}
+.tranferitem{
+    border: 1px solid #ccc;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px;
+}
+.tranferitem .header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+.ant-checkbox-wrapper{
+    margin-right: 20px;
+}
+.tranferitem .main{
+    flex: 1;
+    overflow-y: auto;
+    padding: 5px 10px;
+    font-size: 18px;
+    position: relative;
+}
+.ant-input-affix-wrapper{
+    margin-top: 5px;
+}
+.tranferitem .main li{
+    padding: 5px 10px ;
+    margin: 5px;
+}
+
+.disabled{
+    pointer-events:none ; 
+    opacity:0.4;
+}
